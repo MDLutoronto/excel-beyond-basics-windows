@@ -3,6 +3,13 @@ title: Charts
 parent: "Excel: Beyond The Basics - Windows"
 layout: default
 nav_order: 4
+staff: 
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Charts
@@ -38,3 +45,5 @@ nav_order: 4
     <img src='{{ '/assets/images/P9.png' | relative_url }}' alt='The Chart design tab in the ribbon has been highlighted' title='' width='569' height='136' />
 
 10. These ribbons provide you with the same options we were just looking at for adding chart elements and changing chart styles, this is just another method for editing your chart. The **Design** ribbon also provides a few extra options, such as changing the chart type or transposing your data. The **Format** ribbon provides some formatting options, though we generally prefer to work with the panel that pops up to the right of the worksheet when formatting chart elements.
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)

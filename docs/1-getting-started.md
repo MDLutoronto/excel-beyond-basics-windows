@@ -3,6 +3,13 @@ title: Getting Started
 parent: "Excel: Beyond The Basics - Windows"
 layout: default
 nav_order: 1
+staff: 
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Getting Started
@@ -13,7 +20,8 @@ nav_order: 1
 
     <img src='{{ '/assets/images/A2.png' | relative_url }}' alt='Showing of the worksheet bar across the bottom within Excel' title='' width='408' height='98' />
 
-    | **Worksheet Naming** Choose descriptive names when you name worksheets, so that it’s easy to remember what data they contain. Another good practice is to avoid whitespace - computers struggle to read whitespaces when you automate tasks, so avoiding spaces will even help when you want to refer to a cell in another sheet. Use_underscores or UseCapitalization between words instead. |
+    | **Worksheet Naming** 
+    Choose descriptive names when you name worksheets, so that it’s easy to remember what data they contain. Another good practice is to avoid whitespace - computers struggle to read whitespaces when you automate tasks, so avoiding spaces will even help when you want to refer to a cell in another sheet. Use_underscores or UseCapitalization between words instead. |
 
 3. Across the top of the screen, you have what is known as the **ribbon**. There are a series of tabs across the top, each of which provides access to a range of tools. You’re likely very familiar with this layout, as it is similar across all Microsoft Office applications.
 
@@ -48,7 +56,8 @@ nav_order: 1
 
     <img src='{{ '/assets/images/A10.PNG' | relative_url }}' alt='After clicking on a cell, the top left display shows which cell is selected' title='' width='421' height='234' />
 
-    | **Column Naming** Try to keep your names short but descriptive (so you remember what you meant the next time you open the workbook). Excel will let you type anything as a column name, but if your data might eventually be imported into other software (such as a database or a geographic information system), then you will want to follow a few additional rules: Use letters, numbers and underscores only (no spaces or special characters). Start all names with a letter, and do not use more than 64 characters in a name. |
+    | **Column Naming** 
+    Try to keep your names short but descriptive (so you remember what you meant the next time you open the workbook). Excel will let you type anything as a column name, but if your data might eventually be imported into other software (such as a database or a geographic information system), then you will want to follow a few additional rules: Use letters, numbers and underscores only (no spaces or special characters). Start all names with a letter, and do not use more than 64 characters in a name. |
  
 
 11. Immediately beside the name box is the **formula bar.** It will show you the contents of the selected cell (even if the cell does not contain a formula). When you edit data, you can edit it within the cell or in the formula bar.
@@ -66,3 +75,5 @@ nav_order: 1
 14. You can change the details shown by right-clicking anywhere in the status bar. Notice also that the status bar contains your zoom tool which lets you zoom in and out on your view as needed.
 
     <img src='{{ '/assets/images/A14.png' | relative_url }}' alt='Displaying the right-click feature known as the customize status bar' title='' width='447' height='368' />
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)
