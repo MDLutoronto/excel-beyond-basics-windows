@@ -3,9 +3,27 @@ title: Working with Data
 parent: "Excel: Beyond The Basics - Windows"
 layout: default
 nav_order: 2
+staff: 
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Working with Data
+* [Understanding Data](#understanding-data)
+    + [Number Data](#number-data)
+    + [Text Data](#text-data)
+    + [Error Data](#error-data)
+    + [Logical Data](#logical-data)
+* [Viewing and Editing Data Types](#viewing-and-editing-data-types)
+* [Viewing and Sorting Data](#viewing-and-sorting-data)
+* [Conditional Formatting](#conditional-formatting)
+* [Filtering Data](#filtering-data)
+* [Transposing Data](#transposing-data)
+
 
 ### Understanding Data Types
 {: #understanding-data}
@@ -64,7 +82,8 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 
  
 
-    | **Data alignment** By default, all numeric data (including dates) are what is known as right-aligned, while all text (string data) are left-aligned. This is a helpful way to see when something you entered wasn’t quite right and hadn’t been recognized as the correct kind of data by Excel. |
+    | **Data alignment** 
+    By default, all numeric data (including dates) are what is known as right-aligned, while all text (string data) are left-aligned. This is a helpful way to see when something you entered wasn’t quite right and hadn’t been recognized as the correct kind of data by Excel. |
 
  
 
@@ -82,13 +101,15 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 
  
 
-    | **Shortened Numbers in Excel** When you punch in long numeric strings into Excel, say, 12345678901234567890 (20 digits), Excel will generally convert it for you, meaning that the 20 digit number you've just tapped in has been cut back to be only about fifteen significant figures. |
+    | **Shortened Numbers in Excel** 
+    When you punch in long numeric strings into Excel, say, 12345678901234567890 (20 digits), Excel will generally convert it for you, meaning that the 20 digit number you've just tapped in has been cut back to be only about fifteen significant figures. |
 
  
 
 7. Let’s go back to the **2024_Bus_Delays** worksheet. The values in our “Date” column also look odd, and the culprit is the same! Ensure that the cells under the “Date” column are selected, and then choose data type **Short Date** from the numbers tab of the Home ribbon.
 
-    | **Selecting Multiple Cells** An easy shortcut to selecting all cells below your current selection in a column is to use **CTRL + SHIFT + ↓**. Note that this selection will only extend to the first blank cell. |
+    | **Selecting Multiple Cells** 
+    An easy shortcut to selecting all cells below your current selection in a column is to use **CTRL + SHIFT + ↓**. Note that this selection will only extend to the first blank cell. |
 
     <img src='{{ '/assets/images/C7.PNG' | relative_url }}' alt='Selecting short date for the column that contains the date information' title='' width='728' height='548' />
 
@@ -96,7 +117,8 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 
     <img src='{{ '/assets/images/C8.png' | relative_url }}' alt='Highlighting that the column has reflected the change made' title='' width='331' height='257' />
 
-    | **Working with Numbers** Don’t worry if your dates look odd after you copy/pasting into a worksheet. Excel stores dates as sequential serial numbers so that they can be used in calculations. These dates start at January 1, 1900 by default. So this date is serial number 1, which means that January 1, 2024 is serial number 45292 because it is 45,291 days later. These mean the same thing to Excel; the number can always be converted to a date format later on without losing any details. |
+    | **Working with Numbers** 
+    Don’t worry if your dates look odd after you copy/pasting into a worksheet. Excel stores dates as sequential serial numbers so that they can be used in calculations. These dates start at January 1, 1900 by default. So this date is serial number 1, which means that January 1, 2024 is serial number 45292 because it is 45,291 days later. These mean the same thing to Excel; the number can always be converted to a date format later on without losing any details. |
  
 
 ### Viewing & Sorting Data
@@ -116,7 +138,8 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 
     <img src='{{ '/assets/images/D5.png' | relative_url }}' alt='Top left triangle which selects every cell' title='' width='526' height='169' />
 
-    | ##### If Excel displays ##### in a cell after you apply currency formatting to your data, the cell probably isn't wide enough to display the data. To expand the column width, double-click the right boundary of the column that contains the cells with the ##### error. This automatically resizes the column to fit the number. You can also drag the right boundary until the columns are the size that you want. |
+    | ##### 
+    If Excel displays ##### in a cell after you apply currency formatting to your data, the cell probably isn't wide enough to display the data. To expand the column width, double-click the right boundary of the column that contains the cells with the ##### error. This automatically resizes the column to fit the number. You can also drag the right boundary until the columns are the size that you want. |
 
  
 
@@ -142,7 +165,7 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 
 12. Click on **Add Level** to add a second variable to sort by ie. **route_long_name**. Excel will sort initially on your first variable, and then those results based on your second variable. Ensure **Sort On** is set to “cell values”, and **Order** is set to “A to Z”. Press **OK**.
 
-    <img src='{{ '/assets/images/D12.PNG' | relative_url }}' alt='GUI that will then open. add level, checkmark 'my data has headers' and edit the column sorting' title='' width='587' height='269' />
+    <img src='{{ '/assets/images/D12.PNG' | relative_url }}' alt="GUI that will then open. add level, checkmark 'my data has headers' and edit the column sorting" title='' width='587' height='269' />
 
 13. Our data has been sorted according to the variables we chose.
 
@@ -179,7 +202,8 @@ Conditional formatting allows you to automatically apply formatting, such as col
 
     <img src='{{ '/assets/images/E7.png' | relative_url }}' alt='Review of the changes that have been done' title='' width='625' height='296' />
 
-    | **Note** If you want to highlight based on multiple conditions at the same time, you can do this by navigating to New Rule and selecting **Use a formula to determine which cells to format**. We'll learn more about formulas later in this workbook. |
+    | **Note** 
+    If you want to highlight based on multiple conditions at the same time, you can do this by navigating to New Rule and selecting **Use a formula to determine which cells to format**. We'll learn more about formulas later in this workbook. |
 
  
 
@@ -242,3 +266,5 @@ Conditional formatting allows you to automatically apply formatting, such as col
 5. Now **select and delete** the rows containing the original data; you prefer to use your new version of the table and no longer need the original one. Select **Shift cells up** when prompted - this will move all the cells below up to fill the gap.
 
     <img src='{{ '/assets/images/G5.PNG' | relative_url }}' alt='Highlight the first selection again and delete' title='' width='730' height='410' />
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)

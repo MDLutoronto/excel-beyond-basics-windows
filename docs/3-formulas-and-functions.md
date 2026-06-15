@@ -3,9 +3,19 @@ title: Formulas and Functions
 parent: "Excel: Beyond The Basics - Windows"
 layout: default
 nav_order: 3
+staff: 
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Formulas and Functions
+* [Using Built in Functions](#using-built-in-functions)
+* [Calling data from Other Worksheets](#calling-data-from-other-worksheets)
+* [Nested Functions](#nested-functions)
 
 In this section, we’ll start using formulas to explore and analyze our data.
 
@@ -78,7 +88,8 @@ In this section, we’ll start using formulas to explore and analyze our data.
 
  
 
-| **Formula not calculating?** Sometimes when using a formula, Excel will show you that formula instead of the results. Check to make sure the data type in your cell is not set to text. If it isn’t, you might have accidentally enabled the “Show Formulas” button on the Formulas ribbon - select this again to turn it off. Finally, check your formula for any typos. A single space before the = sign will mean that Excel won’t recognize your entry as a formula! |
+| **Formula not calculating?** 
+Sometimes when using a formula, Excel will show you that formula instead of the results. Check to make sure the data type in your cell is not set to text. If it isn’t, you might have accidentally enabled the “Show Formulas” button on the Formulas ribbon - select this again to turn it off. Finally, check your formula for any typos. A single space before the = sign will mean that Excel won’t recognize your entry as a formula! |
 
  
 
@@ -113,11 +124,11 @@ In this section, we’ll start using formulas to explore and analyze our data.
 
 9. In this case, our range is all cells in column B of the **2024_Bus_Delays** worksheet, since each entry represents a reported delay on that route. Since this data is in another worksheet, we’ll need to add “worsheet_name!” immediately before our range. Hint: there are 50,040 rows in our **2024_Bus_Delays** worksheet.
 
-    <img src='{{ '/assets/images/J10.PNG' | relative_url }}' alt='Formula bar has =countif('2024_Bus_Delays'!B2:B50040)' title='' width='467' height='65' />
+    <img src='{{ '/assets/images/J10.PNG' | relative_url }}' alt="Formula bar has =countif('2024_Bus_Delays'!B2:B50040)" title='' width='467' height='65' />
 
 10. When you’ve finished typing in your range, add the **comma** as shown in the shadow explanation. Our **criteria** in this case is the value of cell **A2** - this is what we want Excel to look for and count in our range. Type **A2** and close the formula using parentheses.
 
-    <img src='{{ '/assets/images/J10_0.PNG' | relative_url }}' alt='Additions to the formula bar, =countif('2024_Bus_Delays'!B2:B50040, A2)' title='' width='538' height='127' />
+    <img src='{{ '/assets/images/J10_0.PNG' | relative_url }}' alt="Additions to the formula bar, =countif('2024_Bus_Delays'!B2:B50040, A2)" title='' width='538' height='127' />
 
 11. Hit **Enter**. You should now see that route 89 had 515 delays in 2024.
 
@@ -189,3 +200,5 @@ In this section, we’ll start using formulas to explore and analyze our data.
 13. Our Delay Type column has now been populated with values in all cases. Nicely enough, this information lines up with the conditional formatting we applied earlier!
 
     <img src='{{ '/assets/images/O13.png' | relative_url }}' alt='Delay type column now contains a phrase, "short, medium, or long"' title='' width='304' height='368' />
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)
